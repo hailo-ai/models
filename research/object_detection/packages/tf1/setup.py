@@ -3,9 +3,9 @@ import os
 from setuptools import find_packages
 from setuptools import setup
 
-REQUIRED_PACKAGES = ['pillow', 'lxml', 'matplotlib', 'Cython',
-                     'contextlib2', 'tf-slim', 'six', 'pycocotools', 'lvis',
-                     'scipy', 'pandas']
+REQUIRED_PACKAGES = ['pillow==8.4.0', 'lxml==4.9.2', 'matplotlib==3.3.4', 'Cython==0.29.33',
+                     'contextlib2==21.6.0', 'tf-slim==1.1.0', 'six==1.16.0', 'pycocotools==2.0.6', 'lvis==0.5.3',
+                     'scipy==1.5.4', 'pandas==1.1.5']
 
 setup(
     name='object_detection',
